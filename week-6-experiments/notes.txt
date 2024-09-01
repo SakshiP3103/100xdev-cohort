@@ -1,0 +1,6 @@
+first clear app.css and index.css
+
+React component return
+Create a react app that has a
+1. Header component that takes a title as a prop and renders it inside a div
+2. The top level App component renders 2 Headers
