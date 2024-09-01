@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<script>
+function onButtonPress() {
+const currentValue = document.getElementById("btn").innerHTML;
+console.log(currentValue.split(" "))
+const currentCounter = currentValue.split(" ")[1];//splits the string from space and ['counter','1'] and hence at index[1] is 1
+const newCounter = parseInt(currentCounter) + 1;//parse makes it int,else it becomes '1'+1='11'
+document.getElementById("btn").innerHTML = "Counter "+ newCounter;
+}
+</script>
+<body>
+<button onclick="onButtonPress()" id="btn">Counter 0</button>
+</body>
+</html>
